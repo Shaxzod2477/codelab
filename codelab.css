@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-fon{
+    background-image: url(img/home-image-codelab.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.nomer{
+    width: 200px;
+    position: absolute;
+    font-weight: bold;
+    right: 230px;
+    border:  1px solid black;
+    background-color: black;
+}
+.nomer-tg .a-nomer:hover .nomer{
+    transform: rotate(360deg);
+    transition: 5s;
+    background-color: rgb(54, 52, 52);
+    border: rgb(54, 52, 52);
+    border-radius: 5px;}
+.tg{
+    width: 125px;
+    position: absolute;
+    font-weight: bold;
+    right: 60px;
+    border:  1px solid black;
+    background-color: black;
+}
+.nomer-tg .a-tg:hover .tg{
+    transform: rotate(-360deg);
+    transition: 5s;
+    background-color: rgb(54, 52, 52);
+    border: rgb(54, 52, 52);
+    border-radius: 5px;
+}
+.navbar{
+    font-size: 20px;
+}
+.bg-fon a img{
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.text1{
+    text-align: end;
+    line-height: 2;
+    margin-top: 180px;
+    margin-right: 60px;
+    font-weight: bold;
+}
+.bg-fon .navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    background: white;
+    border: 2px solid gray;
+    box-shadow: 0px 0px 3px 2px grey;
+  }
+  .bg-fon .navbar .navbar-nav .nav-item .nav-link:hover{
+      color: gray;
+      transition: 1s;
+  }
+  .col-sm-4 p{
+      position: absolute;
+      top: 10px;
+      left: 110px;
+  }
+  #past-qismi{
+      background-color: #93D4C0;
+      position: relative;      
+  }
+  #past-qismi p{
+      font-size: 25px;
+  }
+  #row #col:hover{
+    background-color:  #7eb6a5;
+    transition: 2s;
+  }
+  #prolab{
+      position: relative;
+  }
+  .icon a{
+    font-size: 18px;
+    color: aliceblue;
+  }
+  .icon{
+      position: absolute;
+      top: 20px;
+      right: 50px;
+  }
+  .icon a:hover{
+      color: rgb(175, 172, 172);
+      transition: 1s;
+  }
+#prolab p{
+    font-size: 15px;
+    color: #ccc;
+}
+#prolab p a{
+    color: #ccc;
+}
+.div-icon{
+    font-size: 25px;
+    position: absolute;
+    right: 150px;
+   top: 50px;
+}
+#ishlar a{
+    color: black;
+    background-color: rgb(228, 224, 224);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+#ishlar a:hover{
+    text-decoration: none;
+    background-color: rgb(201, 183, 183);
+    transition: 3s;
+}
+
+
+
+.slider {
+    overflow: hidden;
+}
+.slider figure {
+    position: relative;
+    width: 600%;
+    margin:0;
+    left:0;
+    animation: 25s foto infinite;
+}
+.slider figure .surat{
+    width: 1350px;
+    height: 500px;
+    float: left;
+}
+
+
+.bubbels{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+.bubble{
+position: absolute;
+bottom: 0;
+background-color: rgb(126, 252, 250);
+border-radius: 50%;
+opacity: 0.5;
+animation: flying 10s infinite ease-in;
+}
+.bubble:nth-child(1){
+    width: 40px;
+    height: 40px;
+    left: 10%;
+    animation-duration: 8s;
+}
+.bubble:nth-child(2){
+    width: 20px;
+    height: 20px;
+    left: 20%;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(3){
+    width: 50px;
+    height: 50px;
+    left: 35%;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+.bubble:nth-child(4){
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    animation-duration: 7s;
+    animation-delay: 0s;
+}
+.bubble:nth-child(5){
+    width: 35px;
+    height: 35px;
+    left: 55%;
+    animation-duration: 6s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(6){
+    width: 45px;
+    height: 45px;
+    left: 65%;
+    animation-duration: 8s;
+    animation-delay: 3s;
+}
+.bubble:nth-child(7){
+    width: 25px;
+    height: 25px;
+    left: 75%;
+    animation-duration: 7s;
+    animation-delay: 2s;
+}
+.bubble:nth-child(8){
+    width: 80px;
+    height: 80px;
+    left: 80%;
+    animation-duration: 6s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(9){
+    width: 15px;
+    height: 15px;
+    left: 70%;
+    animation-duration: 9s;
+    animation-delay: 0s;
+}
+.bubble:nth-child(10){
+    width: 50px;
+    height: 50px;
+    left: 5%;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+@keyframes flying {
+    0%{
+        top: -100px;
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(45deg);
+    }
+    100%{
+        top: 1080px;
+        transform: translateX(45deg);
+    }
